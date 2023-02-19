@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.rotate,
+.skew {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  background: #34495e;
+  color: white;
+  padding: 20px;
+}
+
+.rotate {
+  transform: rotate(20deg);
+}
+
+.skew {
+  transform: skew(20deg);
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container div.polaroid{
+  width: 260px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+div.rotate_right {
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  transform: rotate(-7deg);
+}

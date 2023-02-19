@@ -1,0 +1,30 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.text-with-gradient {
+  font-size: 40px;
+  background: -webkit-gradient(linear, left top, right top, from(#3498db), color-stop(45%, #2980b9), color-stop(50%, #9b59b6), color-stop(75%, #8e44ad));
+  background: -o-linear-gradient(left, #3498db, #2980b9 45%, #9b59b6 50%, #8e44ad 75%);
+  background: linear-gradient(90deg, #3498db, #2980b9 45%, #9b59b6 50%, #8e44ad 75%);
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+
+/* Non Standard */
+
+/* -webkit-text-fill-color */

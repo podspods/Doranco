@@ -1,0 +1,14 @@
+
+:root{
+
+  --regular-font: 'Black Ops One', cursive;
+  --extra-font: verdana, cursive;
+
+
+}
+
+.font-ext p{
+
+  font-family: var(--regular-font);
+  font-size:xx-large
+}

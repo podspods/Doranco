@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06 - Les Tables </title>
+  </head>
+  <body>
+    <h2>Simple table</h2>
+
+    <table border="1">
+      <tr>
+        <th>Title 1</th>
+        <th>Title 2</th>
+        <th>Title 3</th>
+      </tr>
+
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+    </table>
+
+    <h2>More complex tables</h2>
+
+    <table border="1">
+      <caption>
+        This my legend
+      </caption>
+      <thead>
+        <tr>
+          <th scope="row">Title 1</th>
+          <th>Title 2</th>
+          <th>Title 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td scope="row">Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td rowspan="2" scope="row">Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td scope="row">Cell 1</td>
+          <td>Cell 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td colspan="2">151€</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Budget</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">My budget every week</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>gasoline</th>
+          <td>50€</td>
+        </tr>
+        <tr>
+          <th>shopping</th>
+          <td>500€</td>
+        </tr>
+        <tr>
+          <th>food</th>
+          <td>100€</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total :</th>
+          <td>650€</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

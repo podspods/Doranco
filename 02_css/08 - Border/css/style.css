@@ -1,0 +1,23 @@
+div {
+    height: 150px;
+    width: 150px;
+    margin: 50px auto;
+    background: #bdc3c7;
+}
+
+.solid {
+    border: 3px solid #34495e;
+}
+
+.dashed {
+    border: 3px dashed #34495e;
+
+}
+
+.thick_double{
+    border: thick double #34495e;
+}
+
+.ridge{
+    border: 20px ridge #34495e;
+}

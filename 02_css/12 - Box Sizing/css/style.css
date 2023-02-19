@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+#parent {
+    width: 200px;
+    margin: 0 auto;
+    background-color: tomato;
+}
+
+.inner-elem {
+    width: 40px;
+    border: 1px solid black;
+    height: 40px;
+    float: left;
+}

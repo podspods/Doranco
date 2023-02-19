@@ -1,0 +1,10 @@
+ul li {
+  display: inline-block;
+}
+
+a {
+  border: 1px solid red;
+  width: 200px;
+  height: 40px;
+  /* display: block; */
+}

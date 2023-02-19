@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>maquette 1 </title>
+</head>
+<body>
+    <header class="flex flex-column">
+        <div class="flex justify-end">  <!-- placement menu burger-->
+            <div id="burger_menu" class="flex flex-column align-center justify-center"> <!-- menu burger-->
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="header_renting_part" class="flex flex-column justify-between align-center">  <!-- reste du header (sans le menu burger)-->
+            
+            <div class="flex flex-column align-center ">  <!-- top part -->
+                <div>
+                    <H1 class="color-white">bienvenu a bord</H1>
+                </div>
+                <div>
+                    <p  class="color-white">Rental car 24/24  7/7</p>
+                </div>
+            </div>
+            <div ><!-- buttom part -->
+                <form action="#" id="rental_form">
+                    <select name="agence_location" >
+                        <option value="none"> PIckup location</option>
+                        <option value="Paris"> Paris</option>
+                        <option value="Lyon"> Lyon</option>
+                        <option value="Bordeau">Bordeau</option>
+                        
+                    </select>
+                    <input type="date" placeholder="date debut">
+                    <input type="date" placeholder="date fin">
+                    <input type="submit" value="validation">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex flex-column align-center">
+        <!-- nombre de résulats -->
+        <div id="resultat-affichage" class="flex justify-between">
+            <p>7 resulats</p>  
+            <form action="#" >
+                <select  name="filtre_affichage" >
+                    <option value="prix croissant">prix croissant</option>
+                    <option value="prix décroissant">prix décroissant</option>
+                    <option value="par modèle">par modèle</option>
+
+                </select>
+            </form>
+            
+        </div>
+        <div>
+            <!-- voiture  résulats -->
+            
+            <div class="car-description flex ">
+            <!-- voiture  1  -->
+                <div> <!-- part gauche-->
+                    <div></div>  <!-- flèche scroll gauche-->
+                    <div>
+                        <img src="img/vehicule1.jpg" alt="vehicule 1">
+                    </div>
+                    <div></div>  <!-- flèche scroll droite-->
+
+                </div>
+                <div> <!-- part droite-->
+                    <h4>Peugot 208</h4>
+                    <p>texte peugeot 208</p>
+                    <p>prix 999€</p>
+                    <button>rent and pay</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer class="flex justify-center">
+        <div>
+            <img src="img/agence.jpg" alt="image de l'agence de paris">
+        </div>
+        <div>
+            <ul>
+                <li><p> agence</p></li>
+                <li><p> adresse</p></li>
+                <li><p> mail</p></li>
+                <li><p> contact</p></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "files.defaultLanguage": "markdown",
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.enablePreview": false,
+    "workbench.activityBar.visible": false
+}
+    

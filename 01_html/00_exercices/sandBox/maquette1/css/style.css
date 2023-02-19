@@ -1,0 +1,86 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+/* common Classes */
+
+.flex { display: flex;}
+.flex-column { flex-direction: column;}
+
+.justify-center { justify-content:center;}
+.justify-around { justify-content:space-around;}
+.justify-between { justify-content:space-between;}
+
+.justify-evenly { justify-content:space-evenly;}
+.justify-end { justify-content:flex-end;}
+
+.align-center { align-items: center;}
+
+/* common style */
+
+
+/*---------------------------------------------------------------*/
+/* header */
+/*---------------------------------------------------------------*/
+header{
+    height: 30vh;  /* 60 % de la vue */
+    background: url("../img/bandeau.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+}
+#burger_menu      /*  # parce que ID (pas class) */
+{
+    height: 5vh;
+    width : 5vh ;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#burger_menu div {
+  height: 5%;
+  width: 80%; 
+  background-color: rgba(255,255,255,0.6);
+  margin: 5% 10% 5% 10% ;
+}
+
+
+#header_renting_part{
+    height: 90%;
+
+}
+
+#rental_form {
+    width: 65vw;
+    border: 1px solid yellow;
+}
+.color-white{
+    color: white;
+
+}
+/*---------------------------------------------------------------*/
+/* main */
+/*---------------------------------------------------------------*/
+
+#resultat-affichage{
+    width: 65vw;
+
+}
+
+.car-description{
+    width: 65vw;
+}
+
+
+/*---------------------------------------------------------------*/
+/* footer */
+/*---------------------------------------------------------------*/
+footer img {
+    width: 100px;
+    margin-right: 1rem;
+}

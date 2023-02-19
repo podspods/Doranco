@@ -1,0 +1,143 @@
+/* -------------------------------------------------------------------- */
+/* reset CSS */
+/* -------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+/* -------------------------------------------------------------------- */
+/* Common style */
+/* -------------------------------------------------------------------- */
+a{
+    text-decoration:  none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+/* -------------------------------------------------------------------- */
+/* Common class */
+/* -------------------------------------------------------------------- */
+
+.flex {  display: flex; }
+
+.flexCol { flex-direction: column;}  /* disposition en colonne */
+.justifyCenter { justify-content:center;}  /* justifié centré  */
+.justifyAround { justify-content:space-around;} /* justité avec bordure */
+.justifyBetween { justify-content:space-between;}  /* justifié à partir du bord */
+
+.justifyEvenly { justify-content:space-evenly;}  /* justifé a distance egales  */
+.justifyEnd { justify-content:flex-end;}  /* justifie à droite  */
+
+.alignCenter { align-items: center;}   /* alignement  vertical */
+
+
+
+/* flèche droite gauche de navigation  */
+.arrow {
+	position: relative;
+	height: 30px; 
+    width: 30px;
+	margin: 0 20px 20px 0;
+	border: 1px solid rgba(0,0,0,0.25);
+}
+
+.arrow div {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+}
+
+/* -- ARROW 1      -- */
+
+.arrowRight {
+	height: 15px; width: 15px;
+	border: 1px solid tomato;
+	border-width: 2px 2px 0 0;
+	transform: rotate(45deg);
+}
+
+.arrowLeft {
+	height: 15px; width: 15px;
+	border: 1px solid tomato;
+	border-width: 2px 2px 0 0;
+	transform: rotate(-45deg);
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/* Header */
+/* -------------------------------------------------------------------- */
+
+header{
+    height: 20vh;  /* 20 % de la vue */
+    background: url("../img/header.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+}
+
+#burgerMenu      /*  # parce que ID (pas class) */
+{
+    height: 10vh;   /* 10% de la fenetre mere */
+    width : 10vh ;
+    border: 1px solid cornflowerblue; 
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#burgerMenu div {
+  height: 10%;
+  width: 80%; 
+  background-color: rgba(255,255,255,0.6);
+  margin: 5% 10% 5% 10% ;
+}
+
+/* -------------------------------------------------------------------- */
+/* main */
+/* -------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------- */
+/* footer */
+/* -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- */
+/* RWD */
+/* doc bootstrap : https://getbootstrap.com/  */
+/* -------------------------------------------------------------------- */
+
+
+
+/* --------------------SmartPhones only----------------------------------*/
+@media screen and (max-width : 575.98px) {
+
+
+}
+
+/* ------------------- Tablets and SmartPhones --------------------------*/
+
+@media screen and (max-width : 991.98px) {
+
+
+    
+}
+
+/* --------------------- Tablets only  ------------------------------------*/
+
+@media screen and (min-width : 575.99px) and (max-width : 991.98px) {
+
+
+
+
+
+}
+

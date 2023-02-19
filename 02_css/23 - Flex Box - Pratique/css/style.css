@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 20px;
+    background-color: #bdc3c7;
+    border: 1px solid tomato;
+    color: white;
+
+}
+
+.inner-elem {
+    border: 1px solid #c0392b;
+    height: 100px;
+    padding: 10px;
+    background-color: #34495e;
+} 
+
+body {
+    background-color: #7f8c8d;
+}
+
+h2 {
+    color: white;
+}
+
+.justify-content {
+    justify-content:center;
+}
+
+.align-items {
+    height: 600px;
+    align-items:flex-end;
+    /* justify-content:center; */
+
+}
+
+.align-self {
+    height: 400px;
+}
+
+.align-self .inner-elem:first-child {
+    align-self: flex-end;
+}
+
+.align-self .inner-elem:nth-child(3) {
+    align-self: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap .inner-elem{
+    width: 45%;
+} 
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+
+}
+
+.order3 {
+    order: 3;
+
+}
+
+.order4 {
+    order: 4;
+
+}
+
+.order5 {
+    order: 5;
+
+}
+
+.flex-grow div:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+.flex-grow div:nth-of-type(2) {
+    flex-grow: 3;
+}
+
+.flex-grow div:nth-of-type(3) {
+    flex-grow: 1;
+}
+
+.flex-grow div:nth-of-type(4) {
+    flex-grow: 1;
+}
+
+.flex-shrink {
+    width: 350px;
+}
+
+.flex-shrink div {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex-shrink div:nth-of-type(2) {
+    flex-shrink: 3;
+}
+
+.flex-basis {
+    width: 250px;
+}
+
+.flex-basis div{
+    flex-basis: 50px;
+}
+
+.flex-basis div:nth-of-type(3){
+    flex-basis: 100px;
+}

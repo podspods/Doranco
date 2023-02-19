@@ -1,0 +1,29 @@
+*{
+    margin: 20px;
+} 
+
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #34495e;
+    color: white;
+    font-size: 40px;
+}
+
+section {
+    min-width: 200px;
+    min-height: 200px;
+    background: #34495e;
+    color: white;
+    font-size: 40px;
+}
+
+
+span {
+    max-width: 200px;
+    max-height: 200px;
+    background: #34495e;
+    color: white;
+    font-size: 40px;
+}

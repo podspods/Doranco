@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px 0;
+}
+
+div {
+    width: 400px;
+    margin: 40px auto;
+    background-color: #34495e;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+/* 
+    décallage sur le côté (Shift right:)
+    décallage sur la hauteur (Shift down:)
+    propagation (Spread:)
+    le flou (Blur:)
+    color 
+    opacity
+ */
+
+div:nth-of-type(1) {
+    box-shadow: 10px 0px 14px 0 rgba(0, 0, 0, 0.55);
+}
+
+div:nth-of-type(2) {
+    box-shadow: -10px 0px 14px 0 rgba(168, 39, 39, 0.55);
+}
+
+div:nth-of-type(3) {
+    box-shadow: 0px 0px 24px 6px rgba(35, 204, 41, 0.55);
+}
+
+div:nth-of-type(4) {
+    box-shadow: 0px 10px 14px 4px rgba(189, 26, 181, 0.55);
+}

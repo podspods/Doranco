@@ -1,0 +1,9 @@
+node_modules
+**fontAwesome*
+05_javascript/js_step/exercices/Javascript en musique/sounds/.DS_Store
+**/.DS_Store
+**parcel-cache*
+**dist/
+991_JQUERY/
+990_other/
+*package-lock.json*

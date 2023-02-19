@@ -1,0 +1,82 @@
+/* -------------------------------------------------------------------- */
+/* reset CSS */
+/* -------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+/*
+Ce pseudo-selecteur permet de déclarer de manière globale
+des variables ainsi que le style de base
+*/
+:root {
+    --dark      : #370617;
+    --less-dark : #9d0208;
+    --more-light     : #f48c06;
+    --light      : #faa307;
+    font-size   : 18px;
+    font-family : 'Poppins', sans-serif;
+    color       : var(--light);
+  }
+  
+
+  
+
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--dark);
+  }
+  
+
+  .main-container{
+
+    width: 100%;
+    background-color: var(--darkLight);
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container div {
+      transition: width 2s;
+  }
+
+  .information{
+
+    width: 20%;
+    height: 30px;
+    background-color: var(--less-dark);
+    cursor: pointer;
+    overflow:hidden;
+}
+
+
+  .volet{
+
+    background-color: var(--more-light);
+    width: 20%;
+    height: 30px;
+    /* transition: 0.25; */
+    cursor: pointer;
+    overflow:hidden;
+   
+  }
+
+  .enable{
+    width: 20%;
+  }
+  
+  .disable{
+      width: 0%;
+      overflow:hidden; 
+  }
+
+

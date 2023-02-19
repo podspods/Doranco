@@ -1,0 +1,160 @@
+/* -------------------------------------------------------------------- */
+/* reset CSS */
+/* -------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+/* -------------------------------------------------------------------- */
+/* Common style */
+/* -------------------------------------------------------------------- */
+:root{
+
+	--dark :rgb(85, 13, 153);
+	--light : white;
+	--darkGrey :rgb(114, 85, 141);
+	--lightGrey :rgb(162, 154, 168);
+
+	--variable_name: value;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: auto;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Lobster', sans-serif;
+}
+
+/* -------------------------------------------------------------------- */
+/* Common main */
+/* -------------------------------------------------------------------- */
+.mainContainer{
+
+	background-color: var(--dark) ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+ }
+/* --------------------------------------------------------------------- */
+/* container for Logo  spash and search bar */
+/* --------------------------------------------------------------------- */
+
+.searchAndLogo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+
+}
+
+/* --------------------------------------------------------------------- */
+/* logo splash */
+/* --------------------------------------------------------------------- */
+
+.logo{
+	align-items:center ;
+	height: 150px; 
+	width: 150px; 
+
+	margin: 10px auto;
+	border-radius: 50%;
+	background-color:var(--light);
+	display: flex;
+	justify-content: center;
+
+	} 
+
+/* --------------------------------------------------------------------- */
+/* title logo splash */
+/* --------------------------------------------------------------------- */
+
+.logo h1{
+
+	color: var(--dark);
+	text-align: center;
+	transform: rotate( -10deg);
+	
+}
+
+
+/* --------------------------------------------------------------------- */
+/* search bar  */
+/* --------------------------------------------------------------------- */
+.searchBarDiv{
+	display: flex;
+	justify-content: center;
+	margin: 5px 0px 5px 0px;
+ }
+
+.searchBar{
+	background-color:transparent;
+	height: 40px; 
+	border-radius: 7px 0px 0px  7px;
+	border: solid 1px beige;
+	outline:0;
+}
+.searchBar:focus {
+
+  background-color:rgba(137, 87, 184,0.3);
+	outline:none!important;
+
+}
+
+.searchButton{
+	height: 40px; 
+	width: 40px;
+	background-color:beige;
+	border-radius: 0px 10px 10px 0px;
+	border: none;
+
+}
+
+.result{
+	width:  100%;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* Cocktail  result  */
+/* --------------------------------------------------------------------- */
+
+
+ .cocktail{
+
+	background-color: blueviolet;
+  height: 100px;
+	width:  90%;
+	margin : 10px auto;
+	display: flex;
+	border-radius: 5px;
+ }
+ 
+ 
+
+ .cocktail img {
+	display: block;
+  max-height:100%;
+  max-width:30%;
+  width: auto;
+  height: auto;
+	border: 2px solid white;
+ }
+
+ .cocktail.cocktailText
+ .ingredient{
+	max-width:70%;
+	border: 2px solid white;
+ }
+ 
+.cocktailTag{
+	overflow-wrap: anywhere;
+}
+
+
+

@@ -1,0 +1,67 @@
+/* ID SELECTOR */
+#myPgh {
+    color: red;
+}
+
+/* CLASS SELECTOR */
+.myPgh {
+    color: aqua;
+}
+
+/* TAG SELECTOR */
+body {
+    background-color: burlywood;
+}
+
+/* TYPE SELECTOR */
+input[type="password"] {
+    border: 3px solid red;
+}
+
+/* SELECTOR BY ATTRIBUTE */
+img[title="img 2"] {
+    width: 400px;
+}
+
+/* NAVIGATION */
+div ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+body div ul li a {
+    color: red;
+}
+
+/* #myOtherPgh {
+    color: black;
+} */
+
+p {
+    color: green;
+}
+
+.myOtherPgh {
+    color: red;
+}
+
+/* PSEUDO CLASSES */
+div#mySecondDiv ul li:nth-child(2) a {
+    color: black;
+}
+
+#myThirdDiv p:first-child {
+    color: pink;
+}
+
+#myThirdDiv + span {
+    color: darkorchid;
+}
+
+h2 {
+    color: brown;
+}
+
+h2:hover {
+    color: black;
+}

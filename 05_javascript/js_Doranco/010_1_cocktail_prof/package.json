@@ -1,0 +1,23 @@
+{
+  "name": "cocktail-search-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djeg/cocktail-search-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djeg/cocktail-search-demo/issues"
+  },
+  "homepage": "https://github.com/Djeg/cocktail-search-demo#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}

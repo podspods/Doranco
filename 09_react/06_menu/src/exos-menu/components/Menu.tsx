@@ -9,7 +9,7 @@ type menuProps={
 export default function Menu({ children }: menuProps) {
   return (
     <>
-      <MyNav className={children}>
+      <MyNav className={`${children}`}>
         <MyLink to="/"  >Accueil</MyLink>
         <MyLink to="/contact">Nous contacter</MyLink>
         <MyLink to="/about">about</MyLink>

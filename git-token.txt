@@ -1,0 +1,39 @@
+git clone https://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@github.com/podspods/webLearning
+git push https://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@github.com/podspods/webLearning
+git pull https://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@github.com/podspods/webLearning develop
+
+
+git clone https://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@github.com/podspods/irisations
+
+git clone https://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@github.com/podspods/react-doranco
+
+git remote add origin https://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@github.com/podspods/morpion.git
+
+toke emileCda
+
+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 
+
+
+git remote add origin https://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@github.com/EmileCda/mozam.git
+
+
+git remote add origin https://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@github.com/EmileCda/maputo.git
+https://emileCda.github.io/maputo
+
+
+
+npm run deploy
+
+ "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+
+
+https://emilecda.github.io/mozam/
+
+
+faire la doc pour deploie react sur github
+
+mixe entre cheatsheet.md
+https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+https://shayreichert.com/blogs/comment-mettre-gratuitement-votre-projet-react-sur-git-hub
+https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane

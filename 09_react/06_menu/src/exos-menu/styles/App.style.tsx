@@ -30,6 +30,8 @@ export const App = styled.div`
   justify-content: flex-end;
   text-align: center;
   align-items: center;
+  margin : 1rem;
+  padding: 1rem;
 `;
 
 /**
@@ -48,6 +50,7 @@ export const AppGlobalStyle = createGlobalStyle`
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
+    font-size: 18px;
   }
   * {
     box-sizing: border-box;
@@ -64,5 +67,8 @@ export const MenuBurger = styled.div`
   bottom: 0rem;
   left: 0rem;
   cursor: pointer;
+  font-size: 5rem;
+  padding: 1rem;
+  
 
 `

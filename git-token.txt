@@ -7,16 +7,16 @@ git clone https://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@github.com/podspods/i
 
 git clone https://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@github.com/podspods/react-doranco
 
-git remote add origin https://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@github.com/podspods/morpion.git
+git remote add origin https://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@github.com/podspods/exo-chrono.git
 
 toke emileCda
 
 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 
 
 
-git remote add origin https://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@github.com/EmileCda/mozam.git
+git remote add origin https://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@github.com/EmileCda/mozam.git
 
-
+https://emileCda.github.io/mozam
 git remote add origin https://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@github.com/EmileCda/maputo.git
 https://emileCda.github.io/maputo
 

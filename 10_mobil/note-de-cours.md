@@ -88,3 +88,5 @@ nanostore
 - utilisation
 
 - action : créer avec la function action de nonostore get et set sur le store.
+
+# 23 Février 2023

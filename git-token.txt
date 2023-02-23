@@ -10,7 +10,8 @@ git remote add origin https://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@github.co
 
 git remote add origin https://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@github.com/podspods/exo-chrono.git
 
-git remote add origin https://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@github.com/podspods/ToDoList.git
+git remote add origin https://ghp_9Xf9MDSnbbXNQpYhW0Lwzaaa
+9WbAjkWggv1NeHwf@github.com/podspods/ToDoList.git
 
 
 token totolist

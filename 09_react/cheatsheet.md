@@ -8,10 +8,9 @@ repertoire = 02_sandBox
 npm create vite@latest 02_sandBox --template
 cd 02_sandBox
 npm install
-npm i styled-components
-npm i -D @types/styled-components
 
-npm i react-router react-router-dom
+npm i react-router react-router-dom styled-components nanostores @nanostores/react
+npm i -D @types/styled-components
 
 npm run dev
 ```

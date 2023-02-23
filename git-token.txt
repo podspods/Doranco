@@ -1,23 +1,30 @@
-git clone https://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@github.com/podspods/webLearning
-git push https://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@github.com/podspods/webLearning
-git pull https://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@github.com/podspods/webLearning develop
+git clone https://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@github.com/podspods/webLearning
+git push https://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@github.com/podspods/webLearning
+git pull https://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@github.com/podspods/webLearning develop
 
 
-git clone https://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@github.com/podspods/irisations
 
-git clone https://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@github.com/podspods/react-doranco
+git clone https://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@github.com/podspods/Doranco
 
-git remote add origin https://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@github.com/podspods/exo-chrono.git
+git remote add origin https://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@github.com/podspods/Doranco
 
-toke emileCda
+git remote add origin https://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@github.com/podspods/exo-chrono.git
 
-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 
+git remote add origin https://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@github.com/podspods/ToDoList.git
 
 
-git remote add origin https://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@github.com/EmileCda/mozam.git
+token totolist
+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
 
+
+token emileCda Mozam
+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
+git remote add origin https://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@github.com/EmileCda/mozam.git
 https://emileCda.github.io/mozam
-git remote add origin https://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@github.com/EmileCda/maputo.git
+
+git clone https://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@github.com/EmileCda/mozam.git
+
+git remote add origin https://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@github.com/EmileCda/maputo.git
 https://emileCda.github.io/maputo
 
 
@@ -37,3 +44,7 @@ mixe entre cheatsheet.md
 https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
 https://shayreichert.com/blogs/comment-mettre-gratuitement-votre-projet-react-sur-git-hub
 https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
+
+
+
+

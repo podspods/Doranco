@@ -34,15 +34,15 @@ Doranco cours
 
 [cours Doranco par David](./05_javascript/js_Doranco/JS_readme.md)
 
-## [Gérer le versioning avec GIT](./06_git/README.md)
+### [Gérer le versioning avec GIT](./06_git/README.md)
 
 comment faire ?
 
-## [BAS660 Introduction à SQL](./08_slq/README.md)
+### [BAS660 Introduction à SQL](./08_sql/README.md)
 
-## [DÉV635 Développement mobile avec ReactJS NATIVE](./09_react/README.md)
+### [DÉV635 Développement mobile avec ReactJS NATIVE](./09_react/README.md)
 
-## [DÉV659 Développement mobile avec React NATIVE - Projet](./10_mobil/README.md)
+### [DÉV659 Développement mobile avec React NATIVE - Projet](./10_mobil/README.md)
 
 ## [site web sur github](./06_git/siteWeb.md)
 
@@ -50,11 +50,8 @@ comment faire ?
 
 # weleaCours
 
-- [note de cours](notecours.md)$
-
 - [config vs code](./00_vs_code/configVsCode.md)'
 
-- [type script](typeScript.md)
   modifié dans la branch develop
   #new repository :Doranco
   dim. 19 févr. 2023 10:34:10 CET

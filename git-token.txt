@@ -6,7 +6,7 @@ git pull https://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@github.com/podspods/we
 
 git clone https://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@github.com/podspods/Doranco
 
-git remote add origin https://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@github.com/podspods/Doranco
+git remote add origin https://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@github.com/podspods/Doranco
 
 git remote add origin https://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@github.com/podspods/exo-chrono.git
 
@@ -16,6 +16,9 @@ git remote add origin https://ghp_9Xf9MDSnbbXNQpYhW0Lwzaaa
 
 token totolist
 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
+
+dur 23/03/2023
+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
 
 
 token emileCda Mozam

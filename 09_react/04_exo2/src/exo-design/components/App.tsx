@@ -5,6 +5,7 @@ import { AppGlobalStyle } from '../style/App.style'
 // import Design3 from './Design3'
 // import Design4 from './Design4'
 import Design5 from './Design5'
+import SandBoxArray from './SandBoxArray'
 
 
 export default function App() {
@@ -15,7 +16,9 @@ export default function App() {
       {/* <Design2 /> */}
       {/* <Design3 /> */}
       {/* <Design4 /> */}
-      <Design5 />
+      {/* <Design5 /> */}
+      <SandBoxArray />
+      
     </StrictMode>
 
   )

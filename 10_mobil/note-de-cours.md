@@ -9,7 +9,7 @@ pour une fenetre qui prends tout l'ecran
 le mettre en fixed
 avec top 0 bottom 0 left 0 right 0
 
-onpeut mettre du css imbriqué dans react css
+on peut mettre du css imbriqué dans react css
 
 ## rappel: démarche développement
 
@@ -19,6 +19,7 @@ onpeut mettre du css imbriqué dans react css
    1. etat : c'est un variable connecté au visuel. (si l'état change la variable change et vice versa)
    2. action = fonction : permet de changer les etats
    3. effet : conséquence. fonction se fait à l'insue de l'utilisateur. Se déclenche en cas de changement d'état.
+   4. resultat (affichage dans l'UI)
 
 3. le composant en 4 parties
    1. les etat
@@ -28,7 +29,7 @@ onpeut mettre du css imbriqué dans react css
       note. il est recommandé de toujours passer par des actions
 4. decoupe en component
 
-!! note : revoir le cours sur les tableaux
+!! note : revoir le cours sur les tableaux (array)
 
 # la gestion des états : (state management)
 
@@ -38,7 +39,7 @@ cas d'un état répercuter sur les sibbling
 
 déclarer le state dans le pere et passer les actions dans les fils.
 
-en cas d'utilisation de variable de tpe Funtion
+en cas d'utilisation de variable de type Funtion
 a évite : plutot typer la fonction :
 
 ```js

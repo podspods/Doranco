@@ -4,7 +4,7 @@ git pull https://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@github.com/podspods/we
 
 
 
-git clone https://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@github.com/podspods/Doranco
+git remote add origin https://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@github.com/podspods/Doranco
 
 git remote add origin https://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@github.com/podspods/Doranco
 
@@ -13,24 +13,24 @@ git remote add origin https://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@github.co
 git remote add origin https://ghp_9Xf9MDSnbbXNQpYhW0Lwzaaa
 9WbAjkWggv1NeHwf@github.com/podspods/ToDoList.git
 
+git remote add origin https://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@github.com/podspods/burgerNav.git
 
 token totolist
-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
+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
 
-dur 23/03/2023
-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
-
+du 24/02/2023
+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
+git remote add origin https://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@github.com/podspods/mobil-todolist.git
 
 token emileCda Mozam
-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
-git remote add origin https://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@github.com/EmileCda/mozam.git
+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
+git remote add origin https://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@github.com/EmileCda/mozam.git
 https://emileCda.github.io/mozam
+git clone https://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@github.com/EmileCda/mozam.git
 
-git clone https://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@github.com/EmileCda/mozam.git
 
-git remote add origin https://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@github.com/EmileCda/maputo.git
-https://emileCda.github.io/maputo
-
+lourenco 
+git remote add origin https://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@github.com/EmileCda/lourenco.git
 
 
 npm run deploy

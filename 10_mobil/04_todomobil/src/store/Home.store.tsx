@@ -5,75 +5,61 @@
  */
 
 import { action, map } from "nanostores";
-import { ChangeEvent, MouseEvent, MouseEventHandler } from "react";
 
-export type Item = {
+export type Category = {
   name: string;
-  isDone: boolean;
+  id: number;
+  isActif: boolean;
 };
 
-export type TodoList = {
-  itemName: string;
-  itemList: Item[];
+export type CategoryList = {
+  categoryName: string;
+  username: string;
+  categoryList: Category[];
 };
 
-export const TodoListStore = map<TodoList>({
-  itemName: "",
-  itemList: [],
+export const HomeStore = map<CategoryList>({
+  categoryName: "",
+  username: "",
+  categoryList: [],
 });
 
-export const setItemName = action(
-  TodoListStore,
-  "setItemName",
+export const setUserNameyName = action(
+  HomeStore,
+  "setUserNameyName",
   (store, text: string) => {
-    store.setKey("itemName", text);
+    store.setKey("username", text);
   }
 );
 
-export const addItem = action(TodoListStore, "AddItem", (store) => {
-  const { itemName } = store.get();
-  const { itemList } = store.get();
-  const id: number = itemList.length;
+export const addCategory = action(HomeStore, "addCategory", (store) => {
+  const { categoryName, categoryList } = store.get();
 
-  const newItem: Item = {
-    name: itemName,
-    isDone: false,
+  const newCategory: Category = {
+    name: categoryName,
+    id: 10,
+    isActif: false,
   };
-  // prepend value in array
-  const newItemList = [newItem, ...itemList];
-  store.setKey("itemList", newItemList);
+  // prepend newItem in categoryList
+  const newCategoryList = [newCategory, ...categoryList];
+  store.setKey("categoryList", newCategoryList);
 });
 
-export const toggleIsDone = action(
-  TodoListStore,
-  "AddItem",
+export const toggleIsActif = action(
+  HomeStore,
+  "toggleIsActif",
   (store, idItem: number) => {
-    const { itemList } = store.get();
-    const myNewList = itemList.map((item, index) => {
+    const { categoryList } = store.get();
+    const newCategoryList = categoryList.map((cat, index) => {
       if (idItem === index) {
-        const newItem: Item = {
-          name: item.name,
-          isDone: !item.isDone,
+        const modCat: Category = {
+          id: cat.id,
+          name: cat.name,
+          isActif: !cat.isActif,
         };
-        return newItem;
-      } else return item;
+        return modCat;
+      } else return cat;
     });
-    store.setKey("itemList", myNewList);
-  }
-);
-
-export const deleteItem = action(
-  TodoListStore,
-  "DeleteItem",
-  (store, idItem: number) => {
-    const { itemList } = store.get();
-
-    const myNewList = itemList.filter((item, index) => {
-      if (idItem !== index) {
-        return item;
-      
-      }
-    });
-    store.setKey("itemList", myNewList);
+    store.setKey("categoryList", newCategoryList);
   }
 );

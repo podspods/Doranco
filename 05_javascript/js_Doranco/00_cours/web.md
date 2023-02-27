@@ -8,7 +8,7 @@ Pour se « se connécter » d'autre sites internets (applications web) il faut c
 
 Deux ordinateurs, c'est comme deux humains. Pour communiquer ils doivent partager la même langue. En informatique cette langue est ce qu'on appel **un protocole**
 
-![Protocole](../images/Protocole.png)
+![Protocole](image/Protocole.png)
 
 Des protocoles en informatique il en éxiste énormément :
 
@@ -24,19 +24,19 @@ Des protocoles en informatique il en éxiste énormément :
 
 Pour pouvoir communiquer, chaqu'un se voit attribué une **URL**. C'est la base de toute communication ! Cette **URL** (Unifier Resource Location) est divisé en plusieurs partie ayant toutes un sens données :
 
-![url](../images/URL.png)
+![url](image/URL.png)
 
 ## Comment elle fonctionne la langue ?
 
 Le protocole HTTP, (la langue du **web**) est basé sur des URL (utilisé aussi par tout les protocoles du monde). Le principe est simple, John (le client) envoie une demande (Request) et Sarah (le Serveur) retourne une réponse (Response). La request ou la response se sont de simple fichier text :
 
-![HTTP](../images/HTTP.png)
+![HTTP](image/HTTP.png)
 
 ## C'est quoi la **Request** ?
 
 La request est un fichier composé de plusieurs distinct :
 
-![request](../images/La%20Request.png)
+![request](image/La%20Request.png)
 
 Dans ces parties on retrouve :
 
@@ -65,7 +65,7 @@ Il est facultatif, il contient les données que vous souhaitez envoyer au serveu
 
 C'est un fichier text contenant les informations de la réponse du serveur :
 
-![Response](../images/La%20Response.png)
+![Response](image/La%20Response.png)
 
 Parmis les informations de la réponse :
 

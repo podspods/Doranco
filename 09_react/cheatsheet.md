@@ -17,6 +17,7 @@ npm run dev
 
 2. Clean project
 
+
 ```bash
 rm  -rf src/assets/
 rm  -rf src/App.css

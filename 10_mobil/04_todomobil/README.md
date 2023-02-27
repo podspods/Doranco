@@ -2,7 +2,7 @@
 
 ## schema réactif
 
-![schéma réactif](./image/Todolist-mobil.png)
+![schéma réactif](./image/Todolist-mobil-home.png)
 
 ## préparation de l'environnement
 
@@ -47,7 +47,23 @@ npm i -D @types/styled-components @types/styled-components-react-native
 ### font (exemple lobster)
 
 ```bash
-npx expo install expo-font @expo-google-fonts/lobster
+npx expo install expo-font @expo-google-fonts/lobster --save
+```
+
+a Faire dans le App
+
+```js
+cosnt [useFonts, Lobster_400Regular } from "@expo-google-fonts/lobster";/// a vérifier
+
+const [isFontInstalled] = useFonts({ Lobster_400medium })
+const [isFontInstalled] = useFonts({ Lobster_400medium })
+
+  // Je m'assure que la police soit installé :
+  if (!isFontInstalled) {
+    return <Text>Chargement ...</Text>
+  }
+
+
 ```
 
 ### icone (fontawesome)
@@ -55,6 +71,8 @@ npx expo install expo-font @expo-google-fonts/lobster
 ```bash
 npm i @expo/vector-icons
 ```
+
+[les icones sont ici](https://icons.expo.fyi/)
 
 ### native router
 
@@ -66,6 +84,11 @@ npm i react-router-native
 
 ```bash
 $ npm i nanostores @nanostores/react
+```
+
+```sh
+
+npm install @react-navigation/native @react-navigation/native-stack
 
 ```
 
@@ -73,3 +96,20 @@ $ npm i nanostores @nanostores/react
 
 ![Arborescence projet](./image/arboPorjet.png)
 App.tsx(mobile) renplace main.tsx(browser)
+
+### note de correction
+
+1° charger la font avant de l'utilser dans App
+2 charger une view avec les propriete globale dans App 3. Un text n'as pas besoin d'une view
+4 mettre des variable pourle css 5. une view n'a pas de taille. C'est le contenu qui définit la taille 6. un composant par défaut prends tous la largeur de la view
+
+[7. générateur de shadow pour mobile](https://ethercreative.github.io/react-native-shadow-generator/)
+
+8. styliser directelent le touchableOpacity pour avoir un bouton clikable
+
+attention nodejs en version 16 pour l'émulateur
+# mobil-tolist
+ven. 24 févr. 2023 21:18:09 CET
+develop
+ven. 24 févr. 2023 21:19:58 CET
+branche feature-screen1

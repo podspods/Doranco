@@ -1,81 +1,91 @@
+import { Link } from "react-router-native";
 import styled from "styled-components/native";
-import { useFonts, Lobster_400Regular } from "@expo-google-fonts/lobster";
-
-export const MyCategory = styled.View`
-  background-color: #1f5e1f;
-  height: 100px;
-  margin: 10px 0px;
-  border: 1px dashed red;
-
-  display: flex;
-  justify-content: center;
-`;
 
 export const MainView = styled.View`
-  background-color: #9dce9d;
-  justify-content: flex-start;
+  background-color: #d7eed7;
 `;
-
-export const TitleBox = styled.View`
-  background-color: #9dce9d;
-  font-size: 36px;
+export const HeaderBox = styled.View`
+  background-color: #1f5e1f;
+  margin: 10px 0px;
+  border: 1px dashed red;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 `;
 
 export const TitleText = styled.Text`
-  background-color: rgb(203, 223, 203);
+  color: beige;
   font-size: 36px;
-  color: #061806;
   text-align: center;
-  font-family: lobster;
 `;
 
-export const AuthorBox = styled.View`
-  border-radius: 10%;
-  background-color: #b5ddba;
-  min-height: 40px;
-  width: 100px;
+export const Category = styled.View`
+  background-color: #1f5e1f;
+  margin: 10px 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+`;
+
+export const HalfCategory = styled.View`
   flex-direction: row;
+  align-items: center;
   justify-content: center;
 `;
-export const TaskBox = styled.View`
-  min-height: 40px;
-  margin: 0px 10px 2px 10px;
-  justify-content: center;
-  align-items: center;
-`;
 
-export const TaskText = styled.Text`
-  font-family: "Lobster_400Regular";
-  font-size: 24px;
-  text-align: center;
-  color: #b5ddba;
-`;
-
-export const AuthorText = styled.Text`
-  font-family: "Lobster_400Regular";
-  font-size: 36px;
-  text-align: center;
-`;
-
-export const Button = styled.View`
-  align-items: center;
-  background-color: beige;
-  padding: 10;
-`;
-
-export const TodoBox = styled.View`
-  min-height: 200px;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const MyInput = styled.TextInput`
-  background-color: "#000";
-  font-size: 36px;
-`;
-
-export const AddItem = styled.View`
-  background-color: "#685959";
+export const CategoryView = styled.View`
+  background-color: #968ada;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`;
 
+export const CategoryIcon = styled.Text`
+  font-size: 36px;
+  padding: 10px;
+`;
+
+export const CategoryName = styled.Text`
+  font-size: 36px;
+  color: aqua;
+  
+`;
+
+export const NewCategorieContainer = styled.View`
+  font-size: 36px;
+`;
+
+export const AddCategory = styled.View`
+background-color  : #e1ecec;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 10px;
+border-radius: 100px;
+`;
+
+export const AddCategoryName = styled.Text`
+padding: 10px;
+font-size: 36px;
+`;
+export const AddCategoryIcone = styled.View`
+font-size: 36px;
+padding: 10px;
+
+`;
+export const Footer = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom:  0px;
+  left: 0px;
+  padding: 10px 20px;
+  background-color: bisque;
+`;
+
+export const MyLink = styled(Link)`
+  text-decoration: none;
 `;

@@ -15,16 +15,31 @@ git remote add origin https://ghp_9Xf9MDSnbbXNQpYhW0Lwzaaa
 
 git remote add origin https://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@github.com/podspods/burgerNav.git
 
-token totolist
-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
+
+git remote add origin https://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@github.com/podspods/nodeJs.git
+
+token podspods 28/02  17:13
+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
 
 du 24/02/2023
-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
+
 git remote add origin https://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@github.com/podspods/mobil-todolist.git
 
-token emileCda Mozam
-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
-git remote add origin https://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@github.com/EmileCda/mozam.git
+codelearning 01/03/2023
+git remote add origin https://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@github.com/podspods/codlea.git
+
+
+git remote add origin https://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@github.com/EmileCda/lourenco.git
+
+token formation nodejs
+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
+git remote add origin https://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@github.com/EmileCda/formation-nodejs.git
+
+git 
+remove 
+
+
+
 https://emileCda.github.io/mozam
 git clone https://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@github.com/EmileCda/mozam.git
 

@@ -1,9 +1,18 @@
 # todolist version mobile
 
+[cour D-jegat](https://github.com/Djeg/formation-react/tree/session/13-02-23/17-02-23)
+
+[Projet react](https://github.com/Djeg/formation-react/tree/session-projet/20-02-23/24-02-23)
+
+[corection Cours Djeg](https://github.com/Djeg/formation-react/tree/session-native/24-02-23)
+
+[design Projet](https://www.figma.com/file/bwQ0R9kNPCcCVPqpaySbpE/Todo-App?node-id=0%3A1&t=cbRxYmUjqOpfpAD7-1)
+
 ## schema réactif
 
 ![schéma réactif](./image/Todolist-mobil-home.png)
 
+<hr>
 ## préparation de l'environnement
 
 télécharcher l'appli (expo go) pour voir les dev sur le téléphone:
@@ -108,7 +117,9 @@ App.tsx(mobile) renplace main.tsx(browser)
 8. styliser directelent le touchableOpacity pour avoir un bouton clikable
 
 attention nodejs en version 16 pour l'émulateur
+
 # mobil-tolist
+
 ven. 24 févr. 2023 21:18:09 CET
 develop
 ven. 24 févr. 2023 21:19:58 CET
